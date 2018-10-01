@@ -1,0 +1,6 @@
+## Opens a local tunnel to MySQL
+Host tun.mysql
+  LocalForward         3306 localhost:3306
+  ServerAliveInterval  30
+  ServerAliveCountMax  3
+

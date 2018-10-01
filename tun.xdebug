@@ -1,0 +1,5 @@
+## Opens a remote tunnel to XDebug
+Host tun.xdebug
+  RemoteForward        9000 localhost:9000
+  ServerAliveInterval  30
+  ServerAliveCountMax  3
